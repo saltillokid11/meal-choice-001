@@ -2,5 +2,9 @@
 # passed into it and defaults to meat.
 
 def meal_choice(choice)
-  return "meat";
+  if choice == "vegan"
+    return "vegan"
+  elseif choice == "meat"
+    return "meat";
+  end
 end
