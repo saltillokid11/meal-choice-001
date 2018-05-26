@@ -4,7 +4,7 @@
 def meal_choice(choice)
   if choice == "vegan"
     return "vegan"
-  elseif choice == "meat"
+  else
     return "meat";
   end
 end
